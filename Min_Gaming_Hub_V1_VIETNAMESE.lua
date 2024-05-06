@@ -315,13 +315,13 @@ _G.Settings = {
   MakeDraggable(Top,Main)
   
   UserInputService.InputBegan:Connect(function(input)
-	if input.KeyCode == Enum.KeyCode[yoo] then
-	if uihide == false then
+	if input.KeyCode == Enum.KeyCode[test] then
+	if uihide == true then
 	uihide = true
 	Main:TweenSize(UDim2.new(0, 0, 0, 0),"In","Quad",0.4,true)
 	UIStroke96.Transparency = 1
 	else
-	  uihide = false
+	  uihide = true
 	UIStroke96.Transparency = 0.10
 	Main:TweenSize(UDim2.new(0, 580, 0, 365),"Out","Quad",0.4,true)
   --UDim2.new(0, 300, 0, 285)
