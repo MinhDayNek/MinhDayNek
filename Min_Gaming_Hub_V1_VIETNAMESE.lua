@@ -19,7 +19,7 @@ Siêu Thị Space Cảm Ơn Bạn Đã Tin Tưởng Và Sử Dụng Dịch Vụ 
 _G.Settings = {
 	UI = {
 	  Color = Color3.fromRGB(255,0,255),
-	  Logo = "",
+	  Logo = "1823413266",
 	},
   }
   
@@ -31,7 +31,7 @@ _G.Settings = {
   end
   
   _G.Color = _G.Settings.UI.Color or Color3.fromRGB(128,0,0)
-  local LogoUI = _G.Settings.Logo or "13717478897"
+  local LogoUI = _G.Settings.Logo or "1823413266"
   
   local UserInputService = game:GetService("UserInputService")
   local TweenService = game:GetService("TweenService")
@@ -229,7 +229,7 @@ _G.Settings = {
 	wait(.1)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 	  Title = "Discord",
-	  Text = "https://discord.gg/fszbjR4Kpu",
+	  Text = "Discord VN WORLD (@ytnhatminh)",
 	  Button1 = "https://discord.gg/fszbjR4Kpu",
 	  Duration = 20
 	})
@@ -315,13 +315,13 @@ _G.Settings = {
   MakeDraggable(Top,Main)
   
   UserInputService.InputBegan:Connect(function(input)
-	if input.KeyCode == Enum.KeyCode[test] then
-	if uihide == true then
+	if input.KeyCode == Enum.KeyCode[yoo] then
+	if uihide == false then
 	uihide = true
 	Main:TweenSize(UDim2.new(0, 0, 0, 0),"In","Quad",0.4,true)
 	UIStroke96.Transparency = 1
 	else
-	  uihide = true
+	  uihide = false
 	UIStroke96.Transparency = 0.10
 	Main:TweenSize(UDim2.new(0, 580, 0, 365),"Out","Quad",0.4,true)
   --UDim2.new(0, 300, 0, 285)
@@ -1798,7 +1798,7 @@ _G.Settings = {
   })
   
   local General = PP:AddTab({
-	LogoTab = "11446825283"
+	LogoTab = "1823413266"
   })
   local Main = General:AddPage()
   local Main1 = General:AddPage()
@@ -1807,35 +1807,35 @@ _G.Settings = {
   Main:PlayerInfo()
   
   local Farm = PP:AddTab({
-	LogoTab = "9260732790"
+	LogoTab = "1823413266"
   })
   
   local Swords = Farm:AddPage()
   local Swords1 = Farm:AddPage()
   
   local Stats1 = PP:AddTab({
-	LogoTab = "11447069304"
+	LogoTab = "1823413266"
   })
   
   local items = Stats1:AddPage()
   local items1 = Stats1:AddPage()
   
   local Combat1 = PP:AddTab({
-	LogoTab = "11446900930"
+	LogoTab = "1823413266"
   })
   
   local Combat2 = Combat1:AddPage()
   local Combat3 = Combat1:AddPage()
   
   local Dungeon = PP:AddTab({
-	LogoTab = "11446957539"
+	LogoTab = "1823413266"
   })
   
   local Raid = Dungeon:AddPage()
   local Raid1 = Dungeon:AddPage()
   
   local Teleport1 = PP:AddTab({
-	LogoTab = "11446920523"
+	LogoTab = "1823413266"
   })
   
   local Teleport = Teleport1:AddPage()
@@ -1843,7 +1843,7 @@ _G.Settings = {
   
   
   local Shop1 = PP:AddTab({
-	LogoTab = "6031265976"
+	LogoTab = "1823413266"
   })
   
   local Shop = Shop1:AddPage()
@@ -1851,7 +1851,7 @@ _G.Settings = {
   
   
   local Misc1 = PP:AddTab({
-	LogoTab = "11447063791"
+	LogoTab = "1823413266"
   })
   
   local Misc = Misc1:AddPage()
@@ -1865,7 +1865,7 @@ _G.Settings = {
   local posX = 0
   local posY = 15
   local posZ = 15
-  local TweenSpeed = 250
+  local TweenSpeed = 300
   local WeaponList = {
 	"Melee","Fruit","Sword"
   }
@@ -7214,7 +7214,7 @@ end
 	  end)
   
   
-	  items:Toggle('Lấy Cursed Dual Katana', false, function(autocdkf)
+	  items:Toggle('Lấy CDK TEST', true, function(autocdkf)
 		  Auto_Cursed_Dual_Katana = autocdkf
 		  CancelTween(Auto_Cursed_Dual_Katana)
 	  end)
