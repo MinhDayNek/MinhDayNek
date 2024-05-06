@@ -19,7 +19,7 @@ Siêu Thị Space Cảm Ơn Bạn Đã Tin Tưởng Và Sử Dụng Dịch Vụ 
 _G.Settings = {
 	UI = {
 	  Color = Color3.fromRGB(255,0,255),
-	  Logo = "1823413266",
+	  Logo = "1775609548179835",
 	},
   }
   
@@ -31,7 +31,7 @@ _G.Settings = {
   end
   
   _G.Color = _G.Settings.UI.Color or Color3.fromRGB(128,0,0)
-  local LogoUI = _G.Settings.Logo or "1823413266"
+  local LogoUI = _G.Settings.Logo or "1775609548179835"
   
   local UserInputService = game:GetService("UserInputService")
   local TweenService = game:GetService("TweenService")
@@ -149,14 +149,14 @@ _G.Settings = {
   TopCorner.Parent = Top
   
   local NameHub = Instance.new("TextLabel")
-  NameHub.Name = "VN HUB"
+  NameHub.Name = "Nhật Minh"
   NameHub.Parent = Top
   NameHub.BackgroundColor3 = Color3.fromRGB(128,128,128)
   NameHub.BackgroundTransparency = 1.000
   NameHub.Position = UDim2.new(0, 57, 0, 5)
   NameHub.Size = UDim2.new(0, 61, 0, 27)
   NameHub.Font = Enum.Font.GothamBold
-  NameHub.Text = "-----VN WORLD HUB"
+  NameHub.Text = "VN WORLD HUB"
   NameHub.TextColor3 = Color3.fromRGB(255,0,0)
   NameHub.TextSize = 20.000
   
@@ -225,12 +225,12 @@ _G.Settings = {
 	end)
   
   mainDiscord.MouseButton1Click:Connect(function()
-	setclipboard("")
+	setclipboard("https://discord.gg/fszbjR4Kpu")
 	wait(.1)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 	  Title = "Discord",
 	  Text = "Discord VN WORLD (@ytnhatminh)",
-	  Button1 = "https://discord.gg/fszbjR4Kpu",
+	  Button1 = "Click Vô Đây Xong Check Clipboard",
 	  Duration = 20
 	})
 	end)
@@ -1798,8 +1798,7 @@ _G.Settings = {
   })
   
   local General = PP:AddTab({
-	LogoTab = "1823413266"
-  })
+	LogoTab = "1775609548179835"})
   local Main = General:AddPage()
   local Main1 = General:AddPage()
   
@@ -1807,35 +1806,35 @@ _G.Settings = {
   Main:PlayerInfo()
   
   local Farm = PP:AddTab({
-	LogoTab = "1823413266"
+	LogoTab = "1775609548179835"
   })
   
   local Swords = Farm:AddPage()
   local Swords1 = Farm:AddPage()
   
   local Stats1 = PP:AddTab({
-	LogoTab = "1823413266"
+	LogoTab = "1775609548179835"
   })
   
   local items = Stats1:AddPage()
   local items1 = Stats1:AddPage()
   
   local Combat1 = PP:AddTab({
-	LogoTab = "1823413266"
+	LogoTab = "1775609548179835"
   })
   
   local Combat2 = Combat1:AddPage()
   local Combat3 = Combat1:AddPage()
   
   local Dungeon = PP:AddTab({
-	LogoTab = "1823413266"
+	LogoTab = "1775609548179835"
   })
   
   local Raid = Dungeon:AddPage()
   local Raid1 = Dungeon:AddPage()
   
   local Teleport1 = PP:AddTab({
-	LogoTab = "1823413266"
+	LogoTab = "1775609548179835"
   })
   
   local Teleport = Teleport1:AddPage()
@@ -1843,7 +1842,7 @@ _G.Settings = {
   
   
   local Shop1 = PP:AddTab({
-	LogoTab = "1823413266"
+	LogoTab = "1775609548179835"
   })
   
   local Shop = Shop1:AddPage()
@@ -1851,7 +1850,7 @@ _G.Settings = {
   
   
   local Misc1 = PP:AddTab({
-	LogoTab = "1823413266"
+	LogoTab = "1775609548179835"
   })
   
   local Misc = Misc1:AddPage()
