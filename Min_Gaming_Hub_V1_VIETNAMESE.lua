@@ -19,7 +19,7 @@ Siêu Thị Space Cảm Ơn Bạn Đã Tin Tưởng Và Sử Dụng Dịch Vụ 
 _G.Settings = {
 	UI = {
 	  Color = Color3.fromRGB(255,0,255),
-	  Logo = "13717478897",
+	  Logo = "",
 	},
   }
   
